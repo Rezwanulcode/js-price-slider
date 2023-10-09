@@ -1,0 +1,121 @@
+  /* Custom styles for the sliders and labels */
+#container_bisnu{
+  width:500px;
+  margin:auto;
+}
+  p {
+    font-weight: bold;
+  }
+
+  input[type="range"] {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  /* Custom styles for the result paragraphs */
+  p#sale-price-percent,
+  p#agency-fee-percent {
+    font-weight: normal;
+    margin-top: 0;
+  }
+
+  /* Custom styles for the savings section */
+
+
+  p#price-plan,
+  p#amount-agency,
+  p#amount-saved {
+    margin-top: 0;
+  }
+
+
+
+/* ========== */
+
+
+#agency-fee-percent-container{
+  margin-top:50px;
+}
+#sale-price-percent,#agency-fee-percent{
+  border: 1px solid black;
+  padding:15px;
+  text-align:right;
+}
+
+
+#parent_save_contener{
+  display:flex;
+  align-items:center;
+}
+
+#parent_save_contener div{
+  margin-top:50px;
+  border:1px solid red;
+  width:100%;
+  height:20px;
+  border: 1px solid black;
+  padding:15px;
+  text-align:right;
+}
+
+#amount-saved{
+  border: 1px solid black;
+  text-align:center;
+  padding:15px;
+  background:#7dbe93;
+  color:#fff
+}
+
+/*  Input Design  */
+
+ input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+    outline: none;
+    margin: 10px 0;
+  }
+
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border:3px solid red;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top:-6px;
+  }
+
+  input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background-color: #4c9aff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  input[type="range"]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 5px;
+    background-color: #000;
+    border-radius: 5px;
+  }
+
+  input[type="range"]::-moz-range-track {
+    width: 100%;
+    height: 5px;
+    background-color: #bbb;
+    border-radius: 5px;
+  }
+
+  input[type="range"]::-moz-range-progress {
+    height: 5px;
+    background-color: #4c9aff;
+    border-radius: 5px;
+  }
